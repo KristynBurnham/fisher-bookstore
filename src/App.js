@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import './App.css';
+import { Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import Routes from './Routes';
 
 export default class App extends Component {
   render() {

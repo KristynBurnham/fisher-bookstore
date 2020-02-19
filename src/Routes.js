@@ -7,5 +7,5 @@ export default function Routes() {
         <Switch>
             <Route path="/" exact component={Home} />
         </Switch>
-    );
+    )
 }

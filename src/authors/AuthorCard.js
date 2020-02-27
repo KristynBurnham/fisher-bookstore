@@ -6,9 +6,9 @@ export function AuthorCard(props) {
         <Card style={{ width: "16em" }}>
             <Card.Img variant="top" src="https://via.placeholder.com/150" />
             <Card.Body>
-            <Card.Title>{props.author.title}</Card.Title>
-                <Card.Text>Author: {props.author.author}</Card.Text>
-                <Button variant="warning">Add to Cart</Button>
+            <Card.Title>{props.author.author}</Card.Title>
+                <Card.Text>Genre: {props.author.title}</Card.Text>
+                <Button variant="warning">More Details</Button>
             </Card.Body>
         </Card>
     );
